@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "React App employee directory",
   "homepage": "https://loneyb11.github.io/employee-directory",
-  "main": "index.js",
+  "main": "App.js",
   "dependencies": {
     "axios": "^0.19.2",
     "express": "^4.17.1",
@@ -18,7 +18,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "mv build/* ./* && rmdir build"
   },
   "browserslist": {
     "production": [
