@@ -1,5 +1,5 @@
 # Unit 19 React Homework: Employee Directory
-![](public/empDir.gif)
+![](/empDir.gif)
 ## Overview
 
 For this assignment, we are to create a employee directory with React. The assignment will require you to break up your application's UI into components, manage component state, and respond to user events.
